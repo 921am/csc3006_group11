@@ -60,7 +60,8 @@ while True:
             else:
                 print ("NOT DRY")
             
-            if math.isnan(temp) == False and math.isnan(humidity) == False:print("temp = %0.2f c humidity = %0.2f%%"%(temp,humidity))
+            if math.isnan(temp) == False and math.isnan(humidity) == False:
+                print("temp = %0.2f c humidity = %0.2f%%"%(temp,humidity))
             time.sleep(2)
     except IOError:
         # send error message to arduino
