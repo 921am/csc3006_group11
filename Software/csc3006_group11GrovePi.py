@@ -69,4 +69,4 @@ while True:
         ser.write(b"DHT11 Error\n")
         line = ser.readline().decode('utf-8').rstrip()
         print(line)
-        time.sleep(20)                                                                                                  
+        time.sleep(20)
