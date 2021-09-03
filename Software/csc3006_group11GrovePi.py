@@ -54,7 +54,6 @@ while True:
         # DHT11
         # The first parameter is the port, the second parameter is the type of sensor
             [temp,humidity] = grovepi.dht(dht_sensor,dhtVal)
-            humidity = 73
             if humidity < 80:
                 print ("DRY")
             else:
